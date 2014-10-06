@@ -22,6 +22,4 @@ script:
 after_script:
   - psql -c 'drop database test;' -U postgres
 
-cache: true
-
 commit_container: tmlbl/pypost
