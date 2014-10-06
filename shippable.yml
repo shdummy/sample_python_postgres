@@ -20,3 +20,5 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 commit_container: tmlbl/lalafoofoo
+
+cache: true
